@@ -21,4 +21,3 @@ function power(base, exp) {
 }
 let pow = power(2,6)
 console.log(pow); //64
-
