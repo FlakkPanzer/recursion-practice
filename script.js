@@ -19,5 +19,17 @@ function power(base, exp) {
         return base * power(base, exp -1);
     }
 }
-let pow = power(2,6)
+let pow = power(2,6);
 console.log(pow); //64
+
+// Function that returns the factorial of a number
+function fact(n) {
+    if (n == 1) {
+        return 1;
+    }
+    else {
+        return n * fact(n-1)
+    }
+}
+let factorial = fact(7);
+console.log(factorial); //5040
